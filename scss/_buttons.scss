@@ -1,0 +1,13 @@
+%button {
+  padding: 5px;
+  border: 3px solid $colorDos;  
+  border-radius: 4px;
+  color: black;
+  margin: 0 auto;
+}
+
+.primaryButton {
+  @extend %button;
+  color: $colorUno;
+}
+

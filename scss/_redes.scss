@@ -1,0 +1,11 @@
+$redes:(
+    "instagram": #fd1d1d,
+    "twitch": #bf94ff,
+    "discord": #5865f2, 
+	);
+@each $red, $color in $redes{
+	.link-#{$red}{
+		color: white;
+        background-color: $color;  
+	}
+}

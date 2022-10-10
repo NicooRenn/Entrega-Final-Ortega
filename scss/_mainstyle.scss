@@ -1,0 +1,37 @@
+@mixin texto($size, $color:black) {
+  font-size: $size;
+  color: $color;
+  background-color: $colorCuatro;
+}
+
+h1 {
+	@include texto(35px, $colorDos);
+}
+
+h2 {
+	@include texto(30px, $colorUno);
+}
+
+input{
+    margin: auto;
+    display: block;
+}
+
+h4 {
+	@include texto(30px);
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+}
+
+.flexColumn {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+.carousel{
+	margin: 0 auto;
+	max-width: 70%;
+	margin-bottom: 35px;
+
+}
